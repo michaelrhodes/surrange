@@ -1,6 +1,6 @@
 {
   "name": "surrange",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple utility for generating ranges that surround a number.",
   "main": "index.js",
   "directories": {
