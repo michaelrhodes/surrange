@@ -28,14 +28,14 @@ surrange(
       sets a minimum bound on the output range. the
       surround parameter will be satisfied by adding
       additional numbers to right until the (optional)
-      maximum is reached 
+      maximum is reached.
 
     maximum (int):
       like above, but in reverse.
 
     weight: (int):
       any negative value will weight the range to the
-      left if an odd surround paraemter is provided.
+      left if an odd surround parameter is provided.
 
 )
 ```
