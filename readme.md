@@ -10,6 +10,20 @@ surrange is a simple utility for generating ranges that surround a given number.
 npm install surrange
 ```
 
+### Example
+``` js
+var surrange = require('surrange')
+
+surrange(10, 5)
+// => [8, 9, 10, 11, 12, 13]
+
+surrange(-1, 10)
+// => [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+
+surrange(-1, 10, { minimum: 1 })
+// => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+```
+
 ## API
 ``` 
 surrange(
@@ -38,20 +52,6 @@ surrange(
       left if an odd surround parameter is provided.
 
 )
-```
-
-### Example
-``` js
-var surrange = require('surrange')
-
-surrange(10, 5)
-// => [8, 9, 10, 11, 12, 13]
-
-surrange(-1, 10)
-// => [-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
-
-surrange(-1, 10, { minimum: 1 })
-// => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 ```
 
 ### License
